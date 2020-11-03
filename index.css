@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    color: #ffffff;
+    background-color: #343434;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    background-color: #202020;
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #202020;
+    padding: 14px 16px;
+    color: white;
+}
+
+a:hover {
+    background-color: #000000
+}
+
+li a:visited {
+    color: #ffffff;
+}
